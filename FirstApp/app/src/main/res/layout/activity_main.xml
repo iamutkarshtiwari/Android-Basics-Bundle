@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F8FA"
+    tools:context="com.udacity.myapplication.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/reddit_blue"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical"
+        android:background="#00C5F9"
+        android:textSize="75sp"
+        android:text="Reddit"
+        android:layout_toRightOf="@+id/logo"
+        android:layout_toEndOf="@+id/logo"/>
+
+    <ImageView
+        android:id="@+id/steve"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/steve_huffman"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/logo"
+        android:alpha="1"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fastrak_dribbble"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/steve"
+        android:alpha="0.1"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@id/steve"
+        android:text="Description: "/>
+
+    <TextView
+        android:id="@+id/desc_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_toRightOf="@id/desc"
+        android:layout_below="@id/steve"
+        android:text="Reddit is an American social news aggregation, web content rating, and discussion website. "/>
+
+
+    <TextView
+        android:id="@+id/founded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@id/desc_value"
+        android:text="Founded: "/>
+
+    <TextView
+        android:id="@+id/founded_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_toRightOf="@id/desc"
+        android:layout_below="@id/desc_value"
+        android:text="June 23, 2005; 12 years ago"/>
+
+
+    <TextView
+        android:id="@+id/founder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@id/founded_value"
+        android:text="Founders: "/>
+
+    <TextView
+        android:id="@+id/founder_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_toRightOf="@id/desc"
+        android:layout_below="@id/founded_value"
+        android:text="Steve Huffman, Alexis Ohanian"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@id/founder_value"
+        android:text="Headquaters: "/>
+
+    <TextView
+        android:id="@+id/address_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_toRightOf="@id/desc"
+        android:layout_below="@id/founder_value"
+        android:text="Headquarters: San Francisco, California, United States"/>
+
+
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@id/address_value"
+        android:text="Website: "/>
+
+    <TextView
+        android:id="@+id/link_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_toRightOf="@id/desc"
+        android:layout_below="@id/address_value"
+        android:autoLink="web"
+        android:text="www.reddit.com"/>
+
+</RelativeLayout>

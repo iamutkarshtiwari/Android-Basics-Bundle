@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.udacity.myapplication.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/reddit_blue"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            android:background="@color/redditColor"
+            android:textSize="75sp"
+            android:text="@string/reddit"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_panel"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/steve"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/steve_huffman"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:alpha="1"/>
+
+        <FrameLayout
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@drawable/fastrak_dribbble"
+                android:alpha="0.2" />
+
+            <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/detailsColor"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:padding="8dp"
+                        android:layout_alignParentTop="true"
+                        android:text="@string/desc_label"/>
+
+                    <TextView
+                        android:id="@+id/desc_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/detailsColor"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:padding="8dp"
+                        android:layout_toRightOf="@id/desc"
+                        android:layout_alignParentTop="true"
+                        android:text="@string/desc_value"/>
+
+                    <TextView
+                        android:id="@+id/founded"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/detailsColor"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:padding="8dp"
+                        android:layout_below="@id/desc_value"
+                        android:text="@string/founded_label"/>
+
+                    <TextView
+                        android:id="@+id/founded_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/detailsColor"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:padding="8dp"
+                        android:layout_toRightOf="@id/desc"
+                        android:layout_below="@id/desc_value"
+                        android:text="@string/founded_value"/>
+
+                    <TextView
+                        android:id="@+id/founder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/detailsColor"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:padding="8dp"
+                        android:layout_below="@id/founded_value"
+                        android:text="@string/founder_label"/>
+
+                    <TextView
+                        android:id="@+id/founder_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/detailsColor"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:padding="8dp"
+                        android:layout_toRightOf="@id/desc"
+                        android:layout_below="@id/founded_value"
+                        android:text="@string/founder_value"/>
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/detailsColor"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:padding="8dp"
+                        android:layout_below="@id/founder_value"
+                        android:text="@string/headquater_label"/>
+
+                    <TextView
+                        android:id="@+id/address_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/detailsColor"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:padding="8dp"
+                        android:layout_toRightOf="@id/desc"
+                        android:layout_below="@id/founder_value"
+                        android:text="@string/headquater_value"/>
+
+                    <TextView
+                        android:id="@+id/link"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/detailsColor"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:padding="8dp"
+                        android:layout_below="@id/address_value"
+                        android:text="@string/website_label"/>
+
+                    <TextView
+                        android:id="@+id/link_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/detailsColor"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:padding="8dp"
+                        android:layout_toRightOf="@id/desc"
+                        android:layout_below="@id/address_value"
+                        android:autoLink="web"
+                        android:text="@string/website_value"/>
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

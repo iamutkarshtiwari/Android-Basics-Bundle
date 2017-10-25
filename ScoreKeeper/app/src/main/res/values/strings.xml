@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="heading">Indian Premier League</string>
+    <string name="yet_to_bat">Yet to bat</string>
+    <string name="default_stats">0</string>
+    <string name="run_label">Runs</string>
+    <string name="ball_label">Balls</string>
+    <string name="first_inning">1st Inning</string>
+    <string name="second_inning">2nd Inning</string>
+    <string name="kkr">Kolkata\nKnight Riders</string>
+    <string name="default_score">0/0</string>
+    <string name="run_0">0</string>
+    <string name="run_1">1</string>
+    <string name="run_2">2</string>
+    <string name="run_3">3</string>
+    <string name="run_4">Four</string>
+    <string name="run_6">Six</string>
+    <string name="no_ball">No Ball</string>
+    <string name="wide">Wide</string>
+    <string name="out">Out</string>
+    <string name="actions">Actions</string>
+    <string name="reset">Reset</string>
+    <string name="won_by_wickets_and_run">%1$s won by %2$d runs &amp; %3$d wickets!</string>
+    <string name="won_by_run">%1$s won by %2$d runs!</string>
+    <string name="tie">There was a tie between %1$s and %2$s</string>
+    <string name="run_rate">Run Rate</string>
+    <string name="overs">Overs</string>
+    <string name="balls_left">Balls left</string>
+</resources>

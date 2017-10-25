@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_product_margin">8dp</dimen>
+    <dimen name="activity_margin">4dp</dimen>
+    <dimen name="edit_activity_margin">6dp</dimen>
+</resources>

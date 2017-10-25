@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+    <item
+        android:id="@+id/action_voice_rec"
+        android:icon="@drawable/ic_keyboard_voice_black_24dp"
+        android:orderInCategory="1"
+        android:title="@string/voice_to_text"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="main_activity_label">Indian Tour Guide</string>
+    <string name="error">ERROR</string>
+    <string name="maps_not_available">Google Maps not  available to handle action.</string>
+
+    <string-array name="city_names">
+        <item>Goa</item>
+        <item>Himachal Pradesh</item>
+        <item>Rajasthan</item>
+        <item>Pune</item>
+    </string-array>
+
+    <string-array name="goa_places_names">
+        <item>Dudhsagar Falls</item>
+        <item>Fort Aguada</item>
+        <item>Bondla Wildlife Sanctuary</item>
+        <item>Chapora Beach</item>
+    </string-array>
+
+    <string-array name="goa_places_subtitle">
+        <item>600m-high waterfall on the Mandovi River</item>
+        <item>17th-century fortress &amp; lighthouse</item>
+        <item>Tree-studded wildlife refuge, zoo &amp; park</item>
+        <item>Ancient Portuguese fort with sea views</item>
+    </string-array>
+
+    <string-array name="goa_places_desc">
+        <item>3-streamed waterfall, named for its milky waters, with swimming pools surrounded by forest.</item>
+        <item>1612 Portuguese fortress offering ocean views &amp; an abandoned lighthouse erected in 1864.</item>
+        <item>Junglelike wildlife sanctuary &amp; zoo with a park area, many exotic species &amp; birds.</item>
+        <item>The 17th-century ruins of a Portuguese-built fortress yield panoramic views after a steep climb.</item>
+    </string-array>
+
+    <string-array name="hp_places_names">
+        <item>Rohtang Pass</item>
+        <item>Sipti Valley</item>
+        <item>Parashar Lake</item>
+        <item>Kareri Lake</item>
+    </string-array>
+
+    <string-array name="hp_places_subtitle">
+        <item>Paragliding, adventure, skiing, and glacier</item>
+        <item>Monastery, cycling, safari, and desert</item>
+        <item>Lake</item>
+        <item>Lake</item>
+    </string-array>
+
+    <string-array name="hp_places_desc">
+        <item>Rohtang Pass, is a high mountain pass on the eastern Pir Panjal Range of the Himalayas around 51 km from Manali.</item>
+        <item>The Spiti Valley is a cold desert mountain valley located high in the Himalaya mountains in the north-eastern part of the Indian state of Himachal Pradesh. </item>
+        <item>Parashar Lake lies 49 km north of Mandi, Himachal Pradesh, India, with a three storied pagoda-like temple dedicated to the sage Parashar. </item>
+        <item>Kareri Lake is a high altitude, shallow, fresh water lake south of the Dhauladhar range approximately 9 km North West of Dharamsala in Kangra district, Himachal Pradesh.</item>
+    </string-array>
+
+    <string-array name="rajasthan_places_names">
+        <item>Amer Fort</item>
+        <item>Hawa Mahal</item>
+        <item>City Palace</item>
+        <item>Mehrangarh</item>
+    </string-array>
+
+    <string-array name="rajasthan_places_subtitle">
+        <item>16th-century hilltop fort &amp; palace</item>
+        <item>Pink/red sandstone \'Palace of the Winds\'</item>
+        <item>Lavish 1700s palace complex &amp; museum</item>
+        <item>Massive historic site with preserved art</item>
+    </string-array>
+
+    <string-array name="rajasthan_places_desc">
+        <item>Structure known as both Amer and Amber, with Hindu &amp; Muslim elements &amp; offering elephant rides.</item>
+        <item>Palace built in the form of a high wall to screen royal ladies as they watched street festivities.</item>
+        <item>Opulent 18th-century palace of Maharaja Sawai Jai Singh II, now a museum &amp; royal residence.</item>
+        <item>Built circa 1460, one of India\'s largest forts offers a lift &amp; galleries, plus guided tours &amp; shops.</item>
+    </string-array>
+
+    <string-array name="pune_places_names">
+        <item>Sinhagad</item>
+        <item>Shaniwar Wada</item>
+        <item>Aga Khan Palace</item>
+        <item>Pataleshwar</item>
+    </string-array>
+
+    <string-array name="pune_places_subtitle">
+        <item>Clifftop fortress, memorial &amp; temple</item>
+        <item>18th-century Peshwa fort with large gate</item>
+        <item>Landmark palace &amp; infamous Gandhi prison</item>
+        <item>Small Hindu temple carved out of rock</item>
+    </string-array>
+
+    <string-array name="pune_places_desc">
+        <item>Historic hilltop fort with a memorial for 17th-century emperors, plus a temple to the goddess Kali.</item>
+        <item>Peshwa palace fort built in the 1740s, with a main gate big enough to let elephants pass through.</item>
+        <item>Palace built in 19th century by Aga Khan &amp; the site of Gandhi\'s 2-year imprisonment in 1940s.</item>
+        <item>Dedicated to the Hindu god Shiva, this compact rock-cut cave temple dates to the 8th century.</item>
+    </string-array>
+
+</resources>

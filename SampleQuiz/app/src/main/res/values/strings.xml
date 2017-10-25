@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="question1_label">Question 1</string>
+    <string name="question2_label">Question 2</string>
+    <string name="question3_label">Question 3</string>
+    <string name="question4_label">Question 4</string>
+    <string name="question5_label">Question 5</string>
+    <string name="question1">Who painted the Sistine Chapel?</string>
+    <string name="answerRaphael">Raphael</string>
+    <string name="answerLeonardo">Leonardo da Vinci</string>
+    <string name="answerMichael">Michelangelo</string>
+    <string name="question2">Who starred in the 1973 movie "Enter the Dragon"?</string>
+    <string name="answerBruce">Bruce Lee</string>
+    <string name="answerJackie">Jackie Chan</string>
+    <string name="answerJet">Jet Li</string>
+    <string name="question3">Aubrey Graham is better known as</string>
+    <string name="nameHintDrake">Enter name here</string>
+    <string name="question4">When was the iPhone released?</string>
+    <string name="answer2005">2005</string>
+    <string name="answer2006">2006</string>
+    <string name="answer2007">2007</string>
+    <string name="question5">Which of these are Harry Potter characters?</string>
+    <string name="answerRubeus">Rubeus Hagrid</string>
+    <string name="answerNeville">Neville Longbottom</string>
+    <string name="answerPeter">Peter Parker</string>
+    <string name="correct_answer">Correct Answers: </string>
+    <string name="by_5">/5</string>
+    <string name="submit">Submit</string>
+</resources>

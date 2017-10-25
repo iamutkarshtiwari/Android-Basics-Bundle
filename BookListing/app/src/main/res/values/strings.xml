@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Shelf</string>
+    <string name="voice_to_text">Voice to Text</string>
+    <string name="search_bar_text">What are you looking for?</string>
+    <string name="find_next_fav">Find your next favourite book</string>
+    <string name="not_mentioned">Not authors mentioned</string>
+    <string name="no_desc">No description mentioned</string>
+    <string name="no_books_found">oops :( No books found</string>
+    <string name="network_issue">There seems to be some issue with your internet</string>
+    <string name="bad_server">Bad server response</string>
+    <string name="price">%1$s %2$.2f</string>
+</resources>

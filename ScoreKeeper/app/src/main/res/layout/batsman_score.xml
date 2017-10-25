@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/dot"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="@color/yellow" />
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/dot"
+        android:text="@string/yet_to_bat"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+    <!--Player's stats on right side-->
+
+    <TextView
+        android:id="@+id/player_balls_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/player"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="@string/ball_label"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/player_balls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_alignBaseline="@id/player"
+        android:layout_toLeftOf="@id/player_balls_label"
+        android:text="@string/default_stats"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/player_runs_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/player"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/player_balls"
+        android:text="@string/run_label"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/player_runs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_alignBaseline="@id/player"
+        android:layout_toLeftOf="@id/player_runs_label"
+        android:text="@string/default_stats"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

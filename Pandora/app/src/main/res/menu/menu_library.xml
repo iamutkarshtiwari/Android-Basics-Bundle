@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.iamutkarshtiwari.pandora.activity.LibraryActivity">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="1"
+        android:title="@string/search"
+        android:icon="@mipmap/ic_search_white"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:orderInCategory="12"
+        android:title="@string/sort_order"
+        android:icon="@mipmap/ic_sort_white"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_payment"
+        android:orderInCategory="12"
+        android:title="@string/payment"
+        android:icon="@mipmap/ic_payment"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_manage"
+        android:orderInCategory="3"
+        android:title="@string/manage_playlists"
+        app:showAsAction="ifRoom" />
+</menu>

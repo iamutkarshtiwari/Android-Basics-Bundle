@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="reddit">Reddit</string>
+    <string name="founder_label">Founders:</string>
+    <string name="founder_value">Steve Huffman, Alexis Ohanian</string>
+    <string name="desc_label">Description:</string>
+    <string name="desc_value">Reddit is an American social news aggregation, web content rating, and discussion website. </string>
+    <string name="founded_label">Founded:</string>
+    <string name="founded_value">June 23, 2005; 12 years ago</string>
+    <string name="headquater_label">Headquaters:</string>
+    <string name="headquater_value">San Francisco, California, United States</string>
+    <string name="website_label">Website:</string>
+    <string name="website_value">www.reddit.com</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Noos</string>
+    <string name="find_news">Search the NEWS around the world</string>
+    <string name="use_keywords">Use keywords to search news</string>
+    <string name="date">Date  %1$s</string>
+    <string name="type">Type  %1$s</string>
+    <string name="no_news_found">No news found</string>
+    <string name="bad_server">Bad server response</string>
+    <string name="network_issue">Please check your internet connection</string>
+</resources>

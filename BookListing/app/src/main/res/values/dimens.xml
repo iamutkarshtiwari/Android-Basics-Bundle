@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thumbnail_width">80dp</dimen>
+    <dimen name="thumbnail_height">120dp</dimen>
+    <dimen name="left_margin_list">4dp</dimen>
+    <dimen name="right_margin_list">4dp</dimen>
+    <dimen name="search_bar_height">80dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tab_bar_size">64dp</dimen>
+    <dimen name="item_offset">8dp</dimen>
+    <dimen name="product_details_text_size">14sp</dimen>
+    <dimen name="search_view_inset">-8dp</dimen>
+</resources>

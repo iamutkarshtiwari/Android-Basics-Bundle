@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_buttons"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:text="@string/actions"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/run_1"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:onClick="updateRuns"
+            android:text="@string/run_1"
+            android:textColor="@color/background"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/run_2"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:onClick="updateRuns"
+            android:text="@string/run_2"
+            android:textColor="@color/background"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/run_3"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:onClick="updateRuns"
+            android:text="@string/run_3"
+            android:textColor="@color/background"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/run_4"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:onClick="updateRuns"
+            android:text="@string/run_4"
+            android:textAllCaps="false"
+            android:textColor="@color/background"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/run_6"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:onClick="updateRuns"
+            android:text="@string/run_6"
+            android:textAllCaps="false"
+            android:textColor="@color/background"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/run_0"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:onClick="updateRuns"
+            android:text="@string/run_0"
+            android:textColor="@color/background"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/no_ball"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:onClick="updateRuns"
+            android:text="@string/no_ball"
+            android:textAllCaps="false"
+            android:textColor="@color/background"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/wide"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:onClick="updateRuns"
+            android:text="@string/wide"
+            android:textAllCaps="false"
+            android:textColor="@color/background"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/out"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:onClick="updateRuns"
+            android:text="@string/out"
+            android:textAllCaps="false"
+            android:textColor="@color/background"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

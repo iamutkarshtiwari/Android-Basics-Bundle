@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Pandora</string>
+    <string name="library">Library</string>
+    <string name="sort_order">Sort order</string>
+    <string name="search">Search</string>
+    <string name="manage_playlists">Manage playlists</string>
+    <string name="artists">Artists</string>
+    <string name="add_users">Add users</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="payment">Payment</string>
+    <string name="now_playing">Now playing</string>
+    <string name="payment_description">The Android Pay API offers a quick and easy path to enable secure, one touch payments in your app using your existing payment infrastructure. Once you complete the integration with your app\'s payment processing flow, Android users will enjoy a rapid, consistent checkout process with Android Pay.</string>
+    <string name="will_be_used">Will be used to play via media player</string>
+    <string name="will_be_used_for_payments">Will be used for payments</string>
+
+    <string-array name="artists">
+        <item>Of Monsters and Men</item>
+        <item>Coldplay</item>
+        <item>Imagine Dragons</item>
+        <item>OneRepublic</item>
+    </string-array>
+
+    <string-array name="albums">
+        <item>Beneath the skin</item>
+        <item>Ghost Stories</item>
+        <item>Night Visions</item>
+        <item>Oh My My</item>
+    </string-array>
+
+
+    <string-array name="beneath_skin">
+        <item>We sink</item>
+        <item>Crystals</item>
+        <item>Backyard</item>
+    </string-array>
+
+    <string-array name="ghost_stories">
+        <item>Magic</item>
+        <item>Midnight</item>
+        <item>Always in my head</item>
+    </string-array>
+
+    <string-array name="night_visions">
+        <item>Bleeding Out</item>
+        <item>Demons</item>
+    </string-array>
+
+    <string-array name="oh_my_my">
+        <item>Kids</item>
+        <item>Better</item>
+        <item>Born</item>
+    </string-array>
+
+    <string-array name="songs">
+        <item>We sink</item>
+        <item>Crystals</item>
+        <item>Backyard</item>
+        <item>Magic</item>
+        <item>Midnight</item>
+        <item>Always in my head</item>
+        <item>Bleeding Out</item>
+        <item>Demons</item>
+        <item>Kids</item>
+        <item>Better</item>
+        <item>Born</item>
+    </string-array>
+
+
+</resources>

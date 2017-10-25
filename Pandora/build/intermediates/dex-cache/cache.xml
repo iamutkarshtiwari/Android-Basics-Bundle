@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/utkarshtiwari/Documents/AndroidProjects/Pandora/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/utkarshtiwari/Documents/AndroidProjects/Pandora/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6d86374b195ef4c1eefc4efe1c9eb9c890307d6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/utkarshtiwari/Documents/AndroidProjects/Pandora/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="43e9df8dd6c0a780d8c69fb917311590bfe2371b">
+        <dex dex="/Users/utkarshtiwari/Documents/AndroidProjects/Pandora/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ad773d6eab099e3975e5fbe4f03e700b47031921/classes.dex" />
+    </item>
+
+</items>
